@@ -43,7 +43,7 @@
             </li>
           </ul>
         </nav>
-        <button class="mobile-menu-open" type="button">
+        <button class="mobile-menu-open" data-menu-open type="button">
           <svg class="mobile-menu-icon" width="32" height="32">
             <use href="./images/icons.svg#icon-charm_menu-hamburger-2"></use>
           </svg>
@@ -65,9 +65,9 @@
         </address>
       </div>
 
-      <!-- <div class="mobile-menu">
+      <div class="mobile-menu is-hidden" data-menu>
         <div class="container container_menu">
-          <button class="menu-buttom-close" type="button">
+          <button class="menu-buttom-close" data-menu-close type="button">
             <svg width="8" height="8">
               <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
             </svg>
@@ -129,8 +129,9 @@
             </li>
           </ul>
         </div>
-      </div> -->
+      </div>
     </header>
+
     <main>
       <!-- герой-->
       <section class="hero section">
@@ -240,7 +241,7 @@
 
       <!-------------------------- -----------наша команда--------------------------------------->
 
-      <!-- <section class="team section">
+      <section class="team section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
@@ -421,12 +422,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--
        -->
-      <!-- <section class="customers section">
-        <div class="container">
+      <section class="customers section">
+        <div class="container container-customers">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-item">
@@ -478,15 +479,15 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!------------------------------------- футер ---------------------------------------------->
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-content">
-          <a class="logo link" href="./index.html"
+          <a class="logo-footer link" href="./index.html"
             >Web<span class="color-logo-footer"> Studio</span></a
           >
           <p class="footer-text-content">
@@ -550,11 +551,11 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!--------------------- модальное окно ------------------------------------ -->
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button-close-modal" type="button" data-modal-close>
           <svg class="molal-icon">
@@ -647,8 +648,9 @@
           <button class="button-modal-send" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
