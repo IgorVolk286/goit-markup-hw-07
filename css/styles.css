@@ -438,8 +438,7 @@ img {
     text-transform: none;
   }
 }
-
-@media screen and (min-width: 1158px) {
+*/ @media screen and (min-width: 1158px) {
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -673,12 +672,12 @@ img {
     row-gap: 64px;
     column-gap: 24px;
   }
-  .team-item {
-    margin: 0;
-  }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
+  .team-list {
+    flex-basis: calc((100% - 72px) / 4);
+  }
 }
 
 /* ========================================custumers================================== */
