@@ -917,6 +917,9 @@ img {
     justify-content: flex-start;
     align-items: flex-start;
   }
+  .logo-footer {
+    text-align: left;
+  }
   .footer-content {
     margin-left: 0px;
     margin-bottom: 72px;
