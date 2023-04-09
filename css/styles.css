@@ -741,7 +741,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .container.container-customers {
-    width: 1440px;
+    width: 1158px;
   }
   .customers-list {
     flex-wrap: nowrap;
