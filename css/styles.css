@@ -792,6 +792,7 @@ img {
   margin-right: 80px;
   margin-bottom: 72px;
 }
+
 .footer-text-content {
   font-size: 16px;
   line-height: 1.5;
@@ -952,6 +953,7 @@ img {
     margin-left: 0px;
   }
 }
+
 @media screen and (min-width: 1158px) {
   .footer {
     padding-top: 100px;
@@ -1011,7 +1013,7 @@ img {
   cursor: pointer;
   padding: 12px 24px;
   transition: color var(--duration-time) var(--timing-function),
-    background var(--duration-time) var(--timing-function),
+    background-color var(--duration-time) var(--timing-function),
     box-shadow var(--duration-time) var(--timing-function);
 }
 
